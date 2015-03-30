@@ -1,0 +1,22 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{enumerate}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{fullpage}
+\usepackage{mdwlist}
+\usepackage{hyperref}
+\usepackage[superscript,biblabel]{cite}
+
+\begin{document}
+
+\title{ Lisp'in Tarihçesi }
+\date{March 23, 2015}
+\author{Mahmut Bulut - 14501026\\ Computer Engineering Dept., Yıldız Technical University}
+
+\maketitle
+
+Lisp John McCarthy tarafından 1958 yılında bulunmuştur. Lisp'in yapım amacı kod ve veri yığınları için liste sistemini kullanmaktı. Programlama dilinin adı da bu konvansiyon üzerine verilmiştir "LISt Processing". Lisp prefix notasyonu kullanmaktadır bunun nedeni stack yapısı ile uyumlu bir şekilde operatörleri tutması gerektiğidir.\footnote{\url{http://www.clisp.org/impnotes/vm.html}} Lisp programlar için matematiksel bir notasyon olarak doğmuştur lambda calculus'ten etkilenmiştir. Lisp birçok yeni jargonu bilgisayar bilimlerine dahil etmiştir. Bunların başında ağaç veri yapıları, garbage collection, dinamik yazım, şart durumları, yüksek seviyeli fonksiyonlar, rekürsif yapılar, kendi dilini derleyen derleyiciler Lisp ile bilgisayar bilimlerine giriş yapmıştır. Linked listler lisp için ana veri yapısı olarak düşünülebilir. İlk evaluation loop'u Steve Russell tarafından IBM704 makineleri için yapılmıştır. Bu çalışma ilk çalışan Lisp yorumlayıcısı olarak adlandırılabilir. İlk tam donanımlı Lisp derleyicisi 1962 yılında Tim Hart ve Mike Levin tarafından yazılmıştır. Bu derleyici tamamıyle Lisp tarafından yazılmış ve S-ifadeleri makine koduna kendi kendine çeviren ilk derleyici görevi görmüştür.\footnote{\url{ftp://publications.ai.mit.edu/ai-publications/pdf/AIM-039.pdf}} Çalışmaların hız kazanması ve verimliliğin sınırlı olması sebebiyle Lisp programlama dilini koşturacak ve verimliliğini sağlayacak makineler yapma fikri ortaya atıldı. Xerox, Texas Instruments, Lisp Machines Incorporated çeşitli makineler üretti. Bu makinelerin çoğu Motorola 680x0 mimarisini kullanmaktadır.\footnote{\url{http://www.mirrorservice.org/sites/www.bitsavers.org/pdf/ti/explorer/2537240-0001_68020cpu_Dec86.pdf}}. Lisp bu gelişmeler sırasında çeşitlendi ve Maclisp, ZetaLisp ve NIL(New implementation of Lisp) olarak alternatiflere ayrıldı. Bu alternatiflerin toparlanabilmesi ve bir tek sentaks yapısında birleştirilmesi amacıyla Common Lisp ortaya çıktı.\footnote{\url{http://www.nssn.org/search/DetailResults.aspx?docid=1142055&selnode=}} Lisp yapay zeka ile bağıntılı bir dil olarak gelişimine devam etti. SHRDLU isimli yapay zeka sisteminin temelini oluşturdu. Günümüzde eşzamanlı sistemlerin geliştirilmesi amacıyla çeşitli varyasyonları ortaya çıktı. Bunlar örnek olarak Clojure\footnote{\url{http://clojure.org/}}, Hy\footnote{\url{http://hylang.org/}} örnek verilebilir. Clojure programlama dili JVM üzerinde çalışmakta, Hy ise Python runtime'ı üzerinde çalışmaktadır. Ayrıca ilk defa lisp ile bilgisayar sistemlerine giriş yapan lambda fonksiyonlarından günümüz programlama dilleri de etkilenmiş ve sentaks yapılarına dahil etmişlerdir.
+
+\end{document}
